@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+:root{
+  --color-131921:#131921;
+  --color-3b4149:#3b4149;
+  --color-febd69:#febd69;
+  --color-232f3e:#232f3e;
+  --color-bf4800:#bf4800;
+  --color-f5f5f7:#f5f5f7;
+  --color-ededed:#ededed;
+  --color-777777:#777777
+}
+.footer{
+  position:absolute;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  height: 50px;
+}
+.button{
+   padding: 10px 33px;
+   border: none;
+   background-color:var(--color-febd69);
+   border-radius:20px;
+   color: white;
+}
+
+.gap-30{
+  gap: 30px;
+}
+.gap-10{
+  gap: 10px;
+}
+.gap-15{
+  gap: 15px;
+}
+.title{
+   font-weight:600;
+   
+}
+.form input{
+   height: 50px;
+   border-color:var(--color-777777) ;
+   box-shadow: none;
+}
+.form input:focus{
+  box-shadow: none;
+}
+ .form-control input{
+  height: 40px;
+  
+
+ }
+ .login-card{
+  background-color: white;
+  padding: 20px;
+  margin: 30px auto;
+  width: 50%;
+  align-items: center;
+  border-radius: 10px;
+ box-shadow: 0px 5px  15px rgba(0, 0, 0, 0.15);
+ }
